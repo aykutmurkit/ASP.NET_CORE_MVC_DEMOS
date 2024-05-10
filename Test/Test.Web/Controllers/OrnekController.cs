@@ -7,6 +7,8 @@ namespace Test.Web.Controllers
         // Bu bir ActionResult'dır
         public IActionResult Index()
         {
+            ViewBag.name = "Asp.net Core";
+
             return View();
         }
 
