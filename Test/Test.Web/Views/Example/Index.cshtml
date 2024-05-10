@@ -4,3 +4,10 @@
 }
 
 <div>Bu sayfa Example Controller > index sayfası</div>
+
+
+<partial name="_MenuPartialView"></partial>
+
+@*yada aşağıdaki gibi de yapabilirsin.*@
+
+@await Html.PartialAsync("_MenuPartialView")
