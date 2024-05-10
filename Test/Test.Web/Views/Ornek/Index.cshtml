@@ -5,22 +5,3 @@
 
 <h1>Ornek Controller Index</h1>
 
-@{
-    var name = ViewBag.name;
-    <p>@name</p>
-}
-<p>@name</p>
-<p>@ViewBag.name</p>
-
-<hr />
-<p> Yaş : @ViewData["age"]</p>
-
-<hr/>
-
-<h1>isimler</h1>
-@foreach(var item in ViewData["names"] as List<string>) // bunun tipini runtime esnasında anlayacağı için build esnasında sıkıntı olmasın diye tipini belli ettik.
-{
-   <p>@item</p> 
-}
-
-<p> @ViewBag.person.Id - @ViewBag.person.name - @ViewBag.person.age</p>

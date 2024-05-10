@@ -7,21 +7,23 @@ namespace Test.Web.Controllers
         // Bu bir ActionResult'dır
         public IActionResult Index()
         {
-            ViewBag.name = "Asp.net Core";
-
-            ViewData["age"] = 30;
-
-            ViewData["names"] = new List<string>() {"Ayşe","Fatma","Hayriye"};
-
-            //insan nesnesi gönderme
-            ViewBag.person = new { Id = 1, name = "Aykut", age = 28 };
-
+            TempData["surname"] = "mürkit";
             return View();
         }
 
         public IActionResult Index2()
         {
-            return RedirectToAction("Index"); // ikinci parametresi Controller alıyor ama farklı bir controllera göndermek istersem ("index","Ornek") yapabilirsin.
+
+
+            // yada iki method arasnda da veri taşıma için 
+
+            var surname2 = TempData["surname"];
+            return View();
+        }
+
+        public IActionResult Index3()
+        {
+            return RedirectToAction("Index"); 
         }
 
         //------------------------------------------------------------
