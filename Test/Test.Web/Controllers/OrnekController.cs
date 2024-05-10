@@ -9,6 +9,13 @@ namespace Test.Web.Controllers
         {
             ViewBag.name = "Asp.net Core";
 
+            ViewData["age"] = 30;
+
+            ViewData["names"] = new List<string>() {"Ayşe","Fatma","Hayriye"};
+
+            //insan nesnesi gönderme
+            ViewBag.person = new { Id = 1, name = "Aykut", age = 28 };
+
             return View();
         }
 
