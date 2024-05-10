@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\amurkit\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\views\\ornek\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\views\\ornek\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\amurkit\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\views\\example\\nolayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\views\\example\\nolayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\amurkit\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\amurkit\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\controllers\\examplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\controllers\\examplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\amurkit\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\views\\example\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\views\\example\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\amurkit\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\controllers\\ornekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\controllers\\ornekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\amurkit\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\views\\ornek\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\views\\ornek\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\amurkit\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\amurkit\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\views\\shared\\examplelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\views\\shared\\examplelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 216,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index2.cshtml",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Ornek\\Index2.cshtml",
-              "RelativeDocumentMoniker": "Test.Web\\Views\\Ornek\\Index2.cshtml",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Ornek\\Index2.cshtml",
-              "RelativeToolTip": "Test.Web\\Views\\Ornek\\Index2.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-10T06:05:24.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Test.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Test.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T18:28:50.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Program.cs",
-              "RelativeDocumentMoniker": "Test.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Program.cs",
-              "RelativeToolTip": "Test.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:57:32.681Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Ornek\\Index.cshtml",
-              "RelativeDocumentMoniker": "Test.Web\\Views\\Ornek\\Index.cshtml",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Ornek\\Index.cshtml",
-              "RelativeToolTip": "Test.Web\\Views\\Ornek\\Index.cshtml",
-              "ViewState": "AQIAABwAAAAAAAAAAAAwwDwAAAAAAAAA",
+              "Title": "NoLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Example\\NoLayout.cshtml",
+              "RelativeDocumentMoniker": "Test.Web\\Views\\Example\\NoLayout.cshtml",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Example\\NoLayout.cshtml",
+              "RelativeToolTip": "Test.Web\\Views\\Example\\NoLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T17:56:20.291Z",
+              "WhenOpened": "2024-05-10T07:36:25.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Example\\Index.cshtml",
+              "RelativeDocumentMoniker": "Test.Web\\Views\\Example\\Index.cshtml",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Example\\Index.cshtml",
+              "RelativeToolTip": "Test.Web\\Views\\Example\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T07:32:01.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExampleController.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Controllers\\ExampleController.cs",
+              "RelativeDocumentMoniker": "Test.Web\\Controllers\\ExampleController.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Controllers\\ExampleController.cs",
+              "RelativeToolTip": "Test.Web\\Controllers\\ExampleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T07:31:36.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "OrnekController.cs",
               "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Controllers\\OrnekController.cs",
               "RelativeDocumentMoniker": "Test.Web\\Controllers\\OrnekController.cs",
               "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Controllers\\OrnekController.cs",
               "RelativeToolTip": "Test.Web\\Controllers\\OrnekController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:51:49.475Z"
+              "WhenOpened": "2024-05-10T07:31:08.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExampleLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Shared\\ExampleLayout.cshtml",
+              "RelativeDocumentMoniker": "Test.Web\\Views\\Shared\\ExampleLayout.cshtml",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Shared\\ExampleLayout.cshtml",
+              "RelativeToolTip": "Test.Web\\Views\\Shared\\ExampleLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T07:28:03.293Z",
+              "EditorCaption": ""
             }
           ]
         }
