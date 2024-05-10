@@ -15,7 +15,19 @@ namespace Test.Web.Controllers
             return RedirectToAction("Index"); // ikinci parametresi Controller alıyor ama farklı bir controllera göndermek istersem ("index","Ornek") yapabilirsin.
         }
 
+        //------------------------------------------------------------
 
+        public IActionResult ParametreView(int id)
+        {
+            return RedirectToAction("JsonResultParametre","Ornek",new {id=id});
+        }
+
+        public IActionResult JsonResultParametre(int id)
+        {
+            return Json(new { Id = id }); 
+        }
+
+        //-------------------------------------------------------
 
 
         // bir contentresult yazalım
