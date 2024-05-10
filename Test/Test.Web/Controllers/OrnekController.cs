@@ -2,13 +2,27 @@
 
 namespace Test.Web.Controllers
 {
+
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+
     public class OrnekController : Controller
     {
         // Bu bir ActionResult'dır
         public IActionResult Index()
         {
-            TempData["surname"] = "mürkit";
-            return View();
+
+            var productList = new List<Product>()
+            {
+                new(){ Id = 1, Name = "Kalem"},
+                new(){ Id = 2, Name = "Silgi"},
+                new(){ Id = 3, Name = "Defer"}
+            };
+     
+            return View(productList);
         }
 
         public IActionResult Index2()
