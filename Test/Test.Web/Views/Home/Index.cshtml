@@ -16,6 +16,30 @@
 <!--burada layout kısmındaki await RenderSectionAsync("Scripts",required:false) kısmına eklenecek.-->
 
 
+<!---------------------------------------------------------------------------------------------------------------------->
+<!--CSS yazımı-->
+<!--await RenderSectionAsync("Css", required: false) layoutda bu kısma ekleniyor-->
+
+@section Css 
+{
+    <link rel="stylesheet" href="~/css/example.css" asp-append-version="true" />
+
+    <style>
+        h1
+        {
+            color:red;
+            background-color:blue;
+        }
+    </style>
+}
+
+<h1>wake up Neo</h1>
+<hr/>
+<h2>MATRIX</h2>
+
+
+
+
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>

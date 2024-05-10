@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Test.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\wwwroot\\css\\example.css",
+      "PackagePath": "staticwebassets\\css\\example.css"
+    },
+    {
       "Id": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

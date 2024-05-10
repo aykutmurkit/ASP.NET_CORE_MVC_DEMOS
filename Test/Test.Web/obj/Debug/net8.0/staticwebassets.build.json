@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9VpTtJUSymmgp74TXQNPq8MZHDkyHDoqA9BMhzLRFck=",
+  "Hash": "cl0WEykFPKpxdROTB+uI/qtt4rbLvWlFNkXWAwITkg4=",
   "Source": "Test.Web",
   "BasePath": "_content/Test.Web",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Test.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\wwwroot\\css\\example.css",
+      "SourceId": "Test.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\wwwroot\\",
+      "BasePath": "_content/Test.Web",
+      "RelativePath": "css/example.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\example.css"
     },
     {
       "Identity": "C:\\Users\\amurkit\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\wwwroot\\css\\site.css",
