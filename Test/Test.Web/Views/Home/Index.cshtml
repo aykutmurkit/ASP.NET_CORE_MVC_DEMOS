@@ -1,6 +1,20 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<!--bu layout içinde belirtilmiş durumda oraya bakabilirsin.-->
+@section Scripts 
+{
+    <script type="text/javascript">
+        alert("Sayfamıza hoşgeldiniz") // js üstünden
+
+        //jquery üzerinden
+        $(document).ready(function () {
+            console.log("Sayfamıza hoş geldiniz");
+        })
+    </script>
+}
+<!--burada layout kısmındaki await RenderSectionAsync("Scripts",required:false) kısmına eklenecek.-->
+
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
