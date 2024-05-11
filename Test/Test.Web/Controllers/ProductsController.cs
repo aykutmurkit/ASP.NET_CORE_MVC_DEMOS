@@ -15,11 +15,7 @@ namespace Test.Web.Controllers
 
             if (!_productRepository.GetAll().Any())
             {
-                _productRepository.Add(new() { Id = 1, Name = "Acer", Price = 30,Stock = 0 });
-                _productRepository.Add(new() { Id = 1, Name = "Toshiba", Price = 30, Stock = 10 });
-                _productRepository.Add(new() { Id = 1, Name = "Asus", Price = 30, Stock = 3 });
-                _productRepository.Add(new() { Id = 1, Name = "MSI", Price = 30, Stock = 2 });
-                _productRepository.Add(new() { Id = 1, Name = "Apple", Price = 30, Stock = 1 });
+                
 
             }
         }
@@ -29,6 +25,12 @@ namespace Test.Web.Controllers
             var products = _productRepository.GetAll();
 
             return View(products);
+        }
+
+        public IActionResult Remove(int id)
+        {
+            _productRepository.Remove(id);
+            return RedirectToAction("Index");
         }
     }
 }

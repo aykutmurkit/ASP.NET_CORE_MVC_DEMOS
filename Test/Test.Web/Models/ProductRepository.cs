@@ -1,9 +1,18 @@
-﻿namespace Test.Web.Models
+﻿using Test.Web.Models;
+
+namespace Test.Web.Models
 {
     public class ProductRepository
     {
         // ramde tutmak için liste oluşturulması
-        private static List<Product> _products = new List<Product>();
+        private static List<Product> _products = new List<Product>
+        {
+            new() { Id = 1, Name = "Acer", Price = 30,Stock = 0 },
+            new() { Id = 2, Name = "Toshiba", Price = 30, Stock = 10 },
+            new() { Id = 3, Name = "Asus", Price = 30, Stock = 3 },
+            new() { Id = 4, Name = "MSI", Price = 30, Stock = 2 },
+            new() { Id = 5, Name = "Apple", Price = 30, Stock = 1 }
+        };
 
         // normal yol bunu siliyoruz
 
@@ -11,6 +20,8 @@
         //{
         //    return _products;
         //}
+
+
 
         public List<Product> GetAll() => _products;
 

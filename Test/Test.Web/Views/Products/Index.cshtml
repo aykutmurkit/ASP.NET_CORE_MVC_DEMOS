@@ -13,6 +13,7 @@
         <th>ürün ismi</th>
         <th>Fiyat</th>
         <th>Stok</th>
+        <td>İşlem</td>
     </thead>
     <tbody>
     @foreach (var item in Model)
@@ -22,6 +23,7 @@
             <th>@item.Name</th>
             <th>@item.Price</th>
             <th>@item.Stock</th>
+            <th><a asp-controller="products" asp-action="remove" asp-route-id="@item.Id">Sil</a></th>
         </tr>
     }
     </tbody>
