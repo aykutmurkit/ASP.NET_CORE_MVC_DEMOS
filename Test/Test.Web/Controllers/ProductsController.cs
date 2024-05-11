@@ -21,7 +21,7 @@ namespace Test.Web.Controllers
             //başlangıç esnasında product tablosunda kayıt yoksa aşağıdaki nesneleri ekler.
             if (!_context.Products.Any()) 
             {
-                _context.Products.Add(new Product() { Name = "Telefon", Price = 30000, Stock = 100 });
+                _context.Products.Add(new Product() { Name = "Telefon", Price = 30000, Stock = 100, Color="red",Height=20,Width=30});
                 _context.Products.Add(new Product() { Name = "Bilgisayar", Price = 30000, Stock = 75 });
                 _context.Products.Add(new Product() { Name = "Tablet", Price = 15000, Stock = 50 });
 

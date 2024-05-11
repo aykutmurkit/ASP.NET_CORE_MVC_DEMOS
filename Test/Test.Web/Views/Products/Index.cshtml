@@ -9,11 +9,12 @@
 <h1>Ürünler</h1>
 <a asp-controller="products" asp-action="add">Ürün ekle</a>
 <table class="table">
-    <thead>
+    <th>
         <th>Id</th>
         <th>ürün ismi</th>
         <th>Fiyat</th>
         <th>Stok</th>
+        <th>Renk</th>
         <td>İşlem</td>
     </thead>
     <tbody>
@@ -24,6 +25,7 @@
             <th>@item.Name</th>
             <th>@item.Price</th>
             <th>@item.Stock</th>
+            <th>@item.Color</th>
             <th>
                 <a asp-controller="products" asp-action="remove" asp-route-id="@item.Id">Sil</a>
                 <a asp-controller="products" asp-action="update" asp-route-id="@item.Id">Güncelle</a>
