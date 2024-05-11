@@ -6,23 +6,34 @@ namespace Test.Web.Controllers
     public class ProductsController : Controller
     {
         private readonly ProductRepository _productRepository;
+        private AppDbContext _context;
 
-        public ProductsController()
-        {
+
+        public ProductsController(AppDbContext context)
+        {   
+            //contructor üzerinden oluşturmaya dependency injection denir. nesne örneği alıyoruz.
+            //DI Container deniyor buna da
+            _context = context;
+
             _productRepository = new ProductRepository();
 
-            //dummy data ekliyoruz.
-
-            if (!_productRepository.GetAll().Any())
+            //mesela burada any() methodu linq metodudur.
+            //başlangıç esnasında product tablosunda kayıt yoksa aşağıdaki nesneleri ekler.
+            if (!_context.Products.Any()) 
             {
-                
+                _context.Products.Add(new Product() { Name = "Telefon", Price = 30000, Stock = 100 });
+                _context.Products.Add(new Product() { Name = "Bilgisayar", Price = 30000, Stock = 75 });
+                _context.Products.Add(new Product() { Name = "Tablet", Price = 15000, Stock = 50 });
 
+                //save changes demezsen memoryde tutulur bunlar dedikten sonra veritabanına yazılır flush gibi çalışıyor.
+                _context.SaveChanges();
             }
+
         }
 
         public IActionResult Index()
         {
-            var products = _productRepository.GetAll();
+            var products = _context.Products.ToList();
 
             return View(products);
         }
