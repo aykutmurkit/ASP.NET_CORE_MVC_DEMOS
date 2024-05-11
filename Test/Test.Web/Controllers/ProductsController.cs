@@ -32,5 +32,15 @@ namespace Test.Web.Controllers
             _productRepository.Remove(id);
             return RedirectToAction("Index");
         }
+
+        public IActionResult Add()
+        {
+            return View();
+        }
+
+        public IActionResult Update(int id)
+        {
+            return View();
+        }
     }
 }

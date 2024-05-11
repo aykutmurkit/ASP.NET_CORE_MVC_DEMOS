@@ -7,6 +7,7 @@
 
 @model List<Product>
 <h1>Ürünler</h1>
+<a asp-controller="products" asp-action="add">Ürün ekle</a>
 <table class="table">
     <thead>
         <th>Id</th>
@@ -23,7 +24,10 @@
             <th>@item.Name</th>
             <th>@item.Price</th>
             <th>@item.Stock</th>
-            <th><a asp-controller="products" asp-action="remove" asp-route-id="@item.Id">Sil</a></th>
+            <th>
+                <a asp-controller="products" asp-action="remove" asp-route-id="@item.Id">Sil</a>
+                <a asp-controller="products" asp-action="update" asp-route-id="@item.Id">Güncelle</a>
+            </th>
         </tr>
     }
     </tbody>
