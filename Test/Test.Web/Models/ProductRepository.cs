@@ -3,7 +3,7 @@
     public class ProductRepository
     {
         // ramde tutmak için liste oluşturulması
-        private static List<Product> _products;
+        private static List<Product> _products = new List<Product>();
 
         // normal yol bunu siliyoruz
 
