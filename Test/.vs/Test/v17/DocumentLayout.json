@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\test.web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\aykut\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|c:\\users\\aykut\\desktop\\github\\asp.net_core_mvc_demos\\test\\test.web\\views\\products\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\test.web\\views\\products\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AECF6C3B-B83A-4BD0-A54A-DFEF3F11B61C}|Test.Web\\Test.Web.csproj|solutionrelative:test.web\\views\\products\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -153,7 +153,7 @@
               "RelativeDocumentMoniker": "Test.Web\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Test.Web\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBEAAAA5AAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwD0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T11:58:55.086Z",
               "EditorCaption": ""

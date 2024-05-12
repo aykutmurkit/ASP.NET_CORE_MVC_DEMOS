@@ -45,21 +45,21 @@ namespace Test.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult SaveProduct()
+        public IActionResult SaveProduct(string Name, decimal Price,int Stock, string Color)
         {
             //1. yöntem
 
-            var name = HttpContext.Request.Form["name"].ToString();
-            var price = decimal.Parse(HttpContext.Request.Form["Price"].ToString());
-            var stock = int.Parse(HttpContext.Request.Form["Stock"].ToString());
-            var color = HttpContext.Request.Form["Color"].ToString();
+            //var name = HttpContext.Request.Form["name"].ToString();
+            //var price = decimal.Parse(HttpContext.Request.Form["Price"].ToString());
+            //var stock = int.Parse(HttpContext.Request.Form["Stock"].ToString());
+            //var color = HttpContext.Request.Form["Color"].ToString();
 
             Product newProduct = new Product()
             {
-                Name = name,
-                Price = price,  
-                Stock = stock,
-                Color = color
+                Name = Name,
+                Price = Price,  
+                Stock = Stock,
+                Color = Color
             };
 
             _context.Products.Add(newProduct);
