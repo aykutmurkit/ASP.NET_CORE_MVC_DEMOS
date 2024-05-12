@@ -38,6 +38,7 @@ namespace Test.Web.Models
             _products.Remove(hasProduct);
         }
 
+    
         public void Update(Product updateProduct)
         {
             var hasProduct = _products.FirstOrDefault(p => p.Id == updateProduct.Id);

@@ -5,3 +5,29 @@
 
 <h1>Ürün Güncelleme</h1>
 
+@model Product
+
+<!--id için javascript tarafında yakalamak için name ile yapıyoruz backende yakalamak için-->
+<form asp-controller="Products" asp-action="Update" method="post">
+    
+     
+ 
+    <label>Ürün ismi</label>
+    <input type="text" asp-for="Name" />
+    <input type="hidden" asp-for="Id" />
+    <br/>
+
+    <label>Ürün Fiyatı</label>
+    <input type="text" asp-for="Price" />
+    <br />
+
+    <label>Ürün Stoğu</label>
+    <input type="text" asp-for="Stock" />
+    <br />
+
+    <label>Ürün Rengi</label>
+    <input type="text" asp-for="Color" />
+    <br />
+
+    <button type="submit">Ürün Güncelle</button>
+</form>
