@@ -44,7 +44,7 @@ namespace Test.Web.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult SaveProduct(Product newProduct)
         {
             //1. yöntem
@@ -63,11 +63,13 @@ namespace Test.Web.Controllers
             //    Color = Color
             //};
 
+            // get ile yakalama da requesting bodysinde değil de querry stringinde gider. mantıklı değil
+
             _context.Products.Add(newProduct);
 
             _context.SaveChanges();
 
-            return RedirectToAction("index");
+            return View();
         }
 
         public IActionResult Update(int id)

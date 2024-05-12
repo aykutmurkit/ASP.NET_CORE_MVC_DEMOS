@@ -8,7 +8,7 @@
 @model Product
 
 <!--id için javascript tarafında yakalamak için name ile yapıyoruz backende yakalamak için-->
-<form asp-controller="Products" asp-action="SaveProduct" method="post">
+<form asp-controller="Products" asp-action="SaveProduct" method="get">
     <label>Ürün ismi</label>
     <input type="text" asp-for="Name" />
     <br/>
