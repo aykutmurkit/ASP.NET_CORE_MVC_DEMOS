@@ -66,7 +66,7 @@ namespace Test.Web.Controllers
             _context.Products.Add(newProduct);
 
             _context.SaveChanges();
-
+            TempData["status"] = "Ürün Başarıyla eklendi.";
             return RedirectToAction("index");
         }
 
@@ -83,9 +83,9 @@ namespace Test.Web.Controllers
         {
 
             _context.Products.Update(updateProduct);
-            _context.SaveChanges(); 
+            _context.SaveChanges();
 
-
+            TempData["status"] = "Ürün Başarıyla güncellendi.";
             return RedirectToAction("Index");
         }
     }
