@@ -17,18 +17,6 @@ namespace Test.Web.Controllers
 
             _productRepository = new ProductRepository();
 
-            //mesela burada any() methodu linq metodudur.
-            //başlangıç esnasında product tablosunda kayıt yoksa aşağıdaki nesneleri ekler.
-            if (!_context.Products.Any()) 
-            {
-                _context.Products.Add(new Product() { Name = "Telefon", Price = 30000, Stock = 100});
-                _context.Products.Add(new Product() { Name = "Bilgisayar", Price = 30000, Stock = 75 });
-                _context.Products.Add(new Product() { Name = "Tablet", Price = 15000, Stock = 50 });
-
-                //save changes demezsen memoryde tutulur bunlar dedikten sonra veritabanına yazılır flush gibi çalışıyor.
-                _context.SaveChanges();
-            }
-
         }
 
         public IActionResult Index()
@@ -59,7 +47,26 @@ namespace Test.Web.Controllers
         [HttpPost]
         public IActionResult SaveProduct()
         {
-            return View();
+            //1. yöntem
+
+            var name = HttpContext.Request.Form["name"].ToString();
+            var price = decimal.Parse(HttpContext.Request.Form["Price"].ToString());
+            var stock = int.Parse(HttpContext.Request.Form["Stock"].ToString());
+            var color = HttpContext.Request.Form["Color"].ToString();
+
+            Product newProduct = new Product()
+            {
+                Name = name,
+                Price = price,  
+                Stock = stock,
+                Color = color
+            };
+
+            _context.Products.Add(newProduct);
+
+            _context.SaveChanges();
+
+            return RedirectToAction("index");
         }
 
         public IActionResult Update(int id)
