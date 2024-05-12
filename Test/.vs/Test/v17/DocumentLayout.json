@@ -58,20 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 216,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240511195316_RemoveWidthAndHeightForProduct.cs",
-              "DocumentMoniker": "C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Migrations\\20240511195316_RemoveWidthAndHeightForProduct.cs",
-              "RelativeDocumentMoniker": "Test.Web\\Migrations\\20240511195316_RemoveWidthAndHeightForProduct.cs",
-              "ToolTip": "C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Migrations\\20240511195316_RemoveWidthAndHeightForProduct.cs",
-              "RelativeToolTip": "Test.Web\\Migrations\\20240511195316_RemoveWidthAndHeightForProduct.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T19:53:16.991Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 10,
@@ -116,7 +104,7 @@
               "RelativeDocumentMoniker": "Test.Web\\Views\\Products\\Add.cshtml",
               "ToolTip": "C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Views\\Products\\Add.cshtml",
               "RelativeToolTip": "Test.Web\\Views\\Products\\Add.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-11T12:32:08.161Z",
               "EditorCaption": ""
@@ -153,10 +141,22 @@
               "RelativeDocumentMoniker": "Test.Web\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Test.Web\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAIwD0AAAAZAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwEEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T11:58:55.086Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240511195316_RemoveWidthAndHeightForProduct.cs",
+              "DocumentMoniker": "C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Migrations\\20240511195316_RemoveWidthAndHeightForProduct.cs",
+              "RelativeDocumentMoniker": "Test.Web\\Migrations\\20240511195316_RemoveWidthAndHeightForProduct.cs",
+              "ToolTip": "C:\\Users\\aykut\\Desktop\\github\\ASP.NET_CORE_MVC_DEMOS\\Test\\Test.Web\\Migrations\\20240511195316_RemoveWidthAndHeightForProduct.cs",
+              "RelativeToolTip": "Test.Web\\Migrations\\20240511195316_RemoveWidthAndHeightForProduct.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:53:16.991Z"
             },
             {
               "$type": "Document",
