@@ -9,5 +9,7 @@
 
         public string? Color { get; set; }
 
+        public bool IsPublish { get; set; }
+
     }
 }

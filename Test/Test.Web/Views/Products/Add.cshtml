@@ -9,12 +9,18 @@
 
 <!--id için javascript tarafında yakalamak için name ile yapıyoruz backende yakalamak için-->
 <form asp-controller="Products" asp-action="SaveProduct" method="post">
-   
+    <!-- asp-for kullandığım için type vermeme gerek asp.net bunu algılıyor.Bazen default gelen tipi ezmek istersek yapabiliriz.-->
     <div class="mb-3">
         <label for="Name" class="form-label">ÜRÜN İSMİ</label>
-        <!-- asp-for kullandığım için type vermeme gerek asp.net bunu algılıyor.Bazen default gelen tipi ezmek istersek yapabiliriz.->
-        <input type="text" class="form-control" asp-for="Name">
+       
+        <input class="form-control" asp-for="Name">
     </div>
+            
+    <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Example label</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+    </div>
+            
     
     <div class="mb-3">
         <label for="Name" class="form-label">ÜRÜN FİYATI</label>
@@ -30,6 +36,14 @@
         <label for="Name" class="form-label">ÜRÜN RENGİ</label>
         <input class="form-control" asp-for="Color">
     </div>
+
+    
+     <div class="form-check">
+     <input class="form-check-input" asp-for="IsPublish">
+      <label class="form-check-label" for="flexcheckdefault">
+       yayınlansın mı?
+       </label>
+        </div>
    
     <button class="btn btn-primary" type="submit">Ürünü Kaydet</button>
 </form>
