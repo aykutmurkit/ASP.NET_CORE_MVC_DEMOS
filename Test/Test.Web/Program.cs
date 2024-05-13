@@ -16,7 +16,10 @@ builder.Services.AddDbContext<AppDbContext>(
 );
 
 //singleton için oluşturulacak interface ile hangi nesneyi üreteceğini söylüyoruz.
-builder.Services.AddSingleton<IHelper,Helper> ();
+//builder.Services.AddSingleton<IHelper,Helper> ();
+
+//scoped için
+builder.Services.AddScoped<IHelper, Helper>();
 
 
 var app = builder.Build();
