@@ -9,21 +9,26 @@
 
 <!--id için javascript tarafında yakalamak için name ile yapıyoruz backende yakalamak için-->
 <form asp-controller="Products" asp-action="SaveProduct" method="post">
-    <label>Ürün ismi</label>
-    <input type="text" asp-for="Name" />
-    <br/>
+   
+    <div class="mb-3">
+        <label for="Name" class="form-label">ÜRÜN İSMİ</label>
+        <input class="form-control" asp-for="Name">
+    </div>
+    
+    <div class="mb-3">
+        <label for="Name" class="form-label">ÜRÜN FİYATI</label>
+        <input class="form-control" asp-for="Price">
+    </div>
 
-    <label>Ürün Fiyatı</label>
-    <input type="text" asp-for="Price" />
-    <br/>
+    <div class="mb-3">
+        <label for="Name" class="form-label">ÜRÜN STOĞU</label>
+        <input class="form-control" asp-for="Stock">
+    </div>
 
-    <label>Ürün Stoğu</label>
-    <input type="text" asp-for="Stock" />
-    <br/>
-
-    <label>Ürün Rengi</label>
-    <input type="text" asp-for="Color" />
-    <br/>
-
-    <button type="submit">Ürünü Kaydet</button>
+    <div class="mb-3">
+        <label for="Name" class="form-label">ÜRÜN RENGİ</label>
+        <input class="form-control" asp-for="Color">
+    </div>
+   
+    <button class="btn btn-primary" type="submit">Ürünü Kaydet</button>
 </form>
