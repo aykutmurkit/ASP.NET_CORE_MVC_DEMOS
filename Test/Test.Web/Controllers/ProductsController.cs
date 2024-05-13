@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Test.Web.Helper;
 using Test.Web.Models;
 
 namespace Test.Web.Controllers
@@ -7,20 +8,28 @@ namespace Test.Web.Controllers
     {
         private readonly ProductRepository _productRepository;
         private AppDbContext _context;
+        private IHelper _helper;
 
-
-        public ProductsController(AppDbContext context)
+        //singleton için constructor injection yapıldır.
+        //DI container sadece iki tane enjekte etme yöntemi vardır.
+        public ProductsController(AppDbContext context,IHelper helper)
         {   
             //contructor üzerinden oluşturmaya dependency injection denir. nesne örneği alıyoruz.
             //DI Container deniyor buna da
             _context = context;
-
+            _helper = helper;
             _productRepository = new ProductRepository();
 
         }
 
-        public IActionResult Index()
+        //şimdi method injection yapalım // dı containerden dolduracağm için böyle bir tag var
+        public IActionResult Index([FromServices]IHelper helper2)
         {
+            var text = "Asp.Net";
+
+            var upperText = _helper.Upper(text);
+
+
             var products = _context.Products.ToList();
 
             return View(products);

@@ -1,4 +1,5 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Test.Web.Helper;
 using Test.Web.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,10 @@ builder.Services.AddDbContext<AppDbContext>(
         options.UseSqlServer(builder.Configuration.GetConnectionString("SqlCon"));
     }
 );
+
+//singleton için oluşturulacak interface ile hangi nesneyi üreteceğini söylüyoruz.
+builder.Services.AddSingleton<IHelper,Helper> ();
+
 
 var app = builder.Build();
 
