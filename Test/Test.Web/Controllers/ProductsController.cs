@@ -79,9 +79,10 @@ namespace Test.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult Update(Product updateProduct)
+        public IActionResult Update(Product updateProduct, int productId)
         {
-
+            //int gibi şeyler requesting querry stringinde bekler nesne body de olur.
+            updateProduct.Id = productId;
             _context.Products.Update(updateProduct);
             _context.SaveChanges();
 
