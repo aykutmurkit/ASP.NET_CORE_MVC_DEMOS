@@ -19,8 +19,15 @@ builder.Services.AddDbContext<AppDbContext>(
 //builder.Services.AddSingleton<IHelper,Helper> ();
 
 //scoped için
-builder.Services.AddScoped<IHelper, Helper>();
+//builder.Services.AddScoped<IHelper, Helper>();
 
+//transient // sp service providerın kısaltması 
+// isConfiguration değerini bilmediği için üretemiyor.
+//ancak daha önce oluşturulmuş bir şeyse AppDbContext gibi bunu yapmana gerek yok parametreli constructoruna verebilirsin.
+builder.Services.AddTransient<IHelper, Helper>(sp =>
+{
+    return new Helper(true);
+});
 
 var app = builder.Build();
 
